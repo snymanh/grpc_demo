@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpc_service", "grpc_service\grpc_service.csproj", "{AE955089-74FB-4336-8E7D-0D25145C566B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpc_rest_server", "grpc_rest_server\grpc_rest_server.csproj", "{C61FE266-A959-4FE8-AE21-A20DF22E080E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpc_shared", "grpc_shared\grpc_shared.csproj", "{566255CE-F197-44C1-AE44-416AE8847F91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE955089-74FB-4336-8E7D-0D25145C566B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE955089-74FB-4336-8E7D-0D25145C566B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE955089-74FB-4336-8E7D-0D25145C566B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE955089-74FB-4336-8E7D-0D25145C566B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61FE266-A959-4FE8-AE21-A20DF22E080E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61FE266-A959-4FE8-AE21-A20DF22E080E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61FE266-A959-4FE8-AE21-A20DF22E080E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61FE266-A959-4FE8-AE21-A20DF22E080E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566255CE-F197-44C1-AE44-416AE8847F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566255CE-F197-44C1-AE44-416AE8847F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566255CE-F197-44C1-AE44-416AE8847F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566255CE-F197-44C1-AE44-416AE8847F91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

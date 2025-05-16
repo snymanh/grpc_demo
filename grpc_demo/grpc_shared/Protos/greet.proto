@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "grpc_shared";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc GetWeather (WeatherForecastRequest) returns (WeatherForecastResponse);
+}
+
+message WeatherForecastRequest{
+  
+}
+
+message WeatherForecastResponse {
+  google.protobuf.Timestamp date = 1;
+  int32 temperatureC = 2;
+  string summary = 3;
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
